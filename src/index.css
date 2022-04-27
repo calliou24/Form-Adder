@@ -1,0 +1,76 @@
+@font-face{
+  font-family: 'Oxygen';
+  src: url(./assets/fonts/Oxygen-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face{
+  font-family: 'Oxygen';
+  src: url(./assets/fonts/Oxygen-Bold.ttf);
+  font-weight: 700;
+}
+
+*{
+  font-family: 'Oxygen';
+}
+
+:root{
+  --light-rose: #F7D1BA;
+  --rose: #F7D1BA;
+  --blue: #557571;
+  --text-color : #;
+
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+body.modalOpen{
+  overflow: hidden;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main{
+  width: 90% ;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 50px;
+}
+
+.viewJson{
+  border: none;
+  padding: 20px 40px;
+  position: absolute;
+  bottom: 20px ;
+  right: 20px;
+  background-color: var(--blue);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.json {
+  position: absolute;
+  top: 0;
+  left:0;
+  background-color: var(--blue);
+  color: #fff;
+  padding: 0 20px;
+}
+
+@media (max-width : 50em){
+  .main{
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

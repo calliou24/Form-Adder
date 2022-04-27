@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  row-gap: 20px;
+}
+.fieldCont{
+  display: grid;
+  row-gap: 10px;
+  width: 100%;
+}
+.componentLabel{
+  font-size: 1.3rem;
+}
+.input {
+  border: 1px solid var(--blue);
+  outline: none;
+  padding: 10px;
+}
+.button {
+  background-color: var(--blue);
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 10px;
+  cursor: pointer;
+}
+.button:hover{
+  opacity: .7;
+}

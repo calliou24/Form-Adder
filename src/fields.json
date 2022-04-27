@@ -1,0 +1,7 @@
+{
+  "fields" : [
+    {"type" : "text","label": "First Name", "component" : "text", "id": 0},
+    {"type" : "radio","label": "Male", "component" : "radio", "id": 1},
+    {"type" : "radio","label": "Female", "component" : "radio", "id": 2}
+  ]
+}
